@@ -1,0 +1,31 @@
+.form {
+  padding: 40px 30px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 8px 0;
+}
+
+.input {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 15px;
+  border: 2px solid #1d20c2;
+  transition: backgroundColor 250ms ease, color 250ms ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(170, 170, 238);
+    color: #fff;
+  }
+}

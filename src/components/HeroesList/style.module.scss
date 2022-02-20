@@ -1,0 +1,20 @@
+.HeroesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -50px;
+  margin-left: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(18, 11, 46);
+
+  &:hover {
+    color: rgb(93, 95, 231);
+  }
+}
